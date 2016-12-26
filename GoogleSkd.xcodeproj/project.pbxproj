@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0404F2821DDF2B1B004991B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F2811DDF2B1B004991B3 /* main.m */; };
+		0404F2851DDF2B1B004991B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F2841DDF2B1B004991B3 /* AppDelegate.m */; };
+		0404F2881DDF2B1B004991B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F2871DDF2B1B004991B3 /* ViewController.m */; };
+		0404F28B1DDF2B1B004991B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404F2891DDF2B1B004991B3 /* Main.storyboard */; };
+		0404F28D1DDF2B1B004991B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404F28C1DDF2B1B004991B3 /* Assets.xcassets */; };
+		0404F2901DDF2B1B004991B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404F28E1DDF2B1B004991B3 /* LaunchScreen.storyboard */; };
+		0404F29B1DDF2B1C004991B3 /* GoogleSkdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F29A1DDF2B1C004991B3 /* GoogleSkdTests.m */; };
+		0404F2A61DDF2B1C004991B3 /* GoogleSkdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F2A51DDF2B1C004991B3 /* GoogleSkdUITests.m */; };
+		0404F2C01DDF2BC7004991B3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0404F2BF1DDF2BC7004991B3 /* SafariServices.framework */; };
+		0404F2C21DDF2BCD004991B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0404F2C11DDF2BCD004991B3 /* SystemConfiguration.framework */; };
+		0404F2C41DDF2C1F004991B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0404F2C31DDF2C1F004991B3 /* GoogleService-Info.plist */; };
+		0404F2D21DDF369A004991B3 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0404F2D11DDF369A004991B3 /* GoogleSignIn.bundle */; };
+		0404F2D41DDF36CA004991B3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0404F2D31DDF36CA004991B3 /* Bolts.framework */; };
+		684221E9D92F1954DEE378B8 /* libPods-GoogleSkdUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E42137F3EC3FF506FCC25111 /* libPods-GoogleSkdUITests.a */; };
+		A4829BB17BE63BDEFE372414 /* libPods-GoogleSkd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745F6AB9ECBC06615FA7A997 /* libPods-GoogleSkd.a */; };
+		BEA0CECFAB0AF6D7AA6E9898 /* libPods-GoogleSkdTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BD4607F50CF9685ACD7F53 /* libPods-GoogleSkdTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0404F2971DDF2B1C004991B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0404F2751DDF2B1B004991B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0404F27C1DDF2B1B004991B3;
+			remoteInfo = GoogleSkd;
+		};
+		0404F2A21DDF2B1C004991B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0404F2751DDF2B1B004991B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0404F27C1DDF2B1B004991B3;
+			remoteInfo = GoogleSkd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0404F27D1DDF2B1B004991B3 /* GoogleSkd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSkd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0404F2811DDF2B1B004991B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0404F2831DDF2B1B004991B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0404F2841DDF2B1B004991B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0404F2861DDF2B1B004991B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0404F2871DDF2B1B004991B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0404F28A1DDF2B1B004991B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0404F28C1DDF2B1B004991B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0404F28F1DDF2B1B004991B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0404F2911DDF2B1B004991B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0404F2961DDF2B1C004991B3 /* GoogleSkdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSkdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0404F29A1DDF2B1C004991B3 /* GoogleSkdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleSkdTests.m; sourceTree = "<group>"; };
+		0404F29C1DDF2B1C004991B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0404F2A11DDF2B1C004991B3 /* GoogleSkdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSkdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0404F2A51DDF2B1C004991B3 /* GoogleSkdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleSkdUITests.m; sourceTree = "<group>"; };
+		0404F2A71DDF2B1C004991B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0404F2BF1DDF2BC7004991B3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0404F2C11DDF2BCD004991B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0404F2C31DDF2C1F004991B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0404F2D11DDF369A004991B3 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		0404F2D31DDF36CA004991B3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		20BD4607F50CF9685ACD7F53 /* libPods-GoogleSkdTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSkdTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745F6AB9ECBC06615FA7A997 /* libPods-GoogleSkd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSkd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D9D2C8B9C3544CA0B78BC /* Pods-GoogleSkd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkd/Pods-GoogleSkd.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E93BC57B87E1C0B93E0662 /* Pods-GoogleSkdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkdTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkdTests/Pods-GoogleSkdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A67F6D7D1370F4070BF64A84 /* Pods-GoogleSkdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkdUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkdUITests/Pods-GoogleSkdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D38FF554B60BD2C65F8553C3 /* Pods-GoogleSkdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkdTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkdTests/Pods-GoogleSkdTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3BFAC5740E82EA4459AF282 /* Pods-GoogleSkd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkd.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkd/Pods-GoogleSkd.release.xcconfig"; sourceTree = "<group>"; };
+		E42137F3EC3FF506FCC25111 /* libPods-GoogleSkdUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSkdUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED10EA8DDF737022DE811CFE /* Pods-GoogleSkdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSkdUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSkdUITests/Pods-GoogleSkdUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0404F27A1DDF2B1B004991B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404F2C21DDF2BCD004991B3 /* SystemConfiguration.framework in Frameworks */,
+				0404F2C01DDF2BC7004991B3 /* SafariServices.framework in Frameworks */,
+				A4829BB17BE63BDEFE372414 /* libPods-GoogleSkd.a in Frameworks */,
+				0404F2D41DDF36CA004991B3 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F2931DDF2B1C004991B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0CECFAB0AF6D7AA6E9898 /* libPods-GoogleSkdTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F29E1DDF2B1C004991B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684221E9D92F1954DEE378B8 /* libPods-GoogleSkdUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0404F2741DDF2B1B004991B3 = {
+			isa = PBXGroup;
+			children = (
+				0404F2D11DDF369A004991B3 /* GoogleSignIn.bundle */,
+				0404F2C31DDF2C1F004991B3 /* GoogleService-Info.plist */,
+				0404F27F1DDF2B1B004991B3 /* GoogleSkd */,
+				0404F2991DDF2B1C004991B3 /* GoogleSkdTests */,
+				0404F2A41DDF2B1C004991B3 /* GoogleSkdUITests */,
+				0404F27E1DDF2B1B004991B3 /* Products */,
+				0404F2BE1DDF2BC6004991B3 /* Frameworks */,
+				7A61375FBFAAFC8CF8641E39 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0404F27E1DDF2B1B004991B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0404F27D1DDF2B1B004991B3 /* GoogleSkd.app */,
+				0404F2961DDF2B1C004991B3 /* GoogleSkdTests.xctest */,
+				0404F2A11DDF2B1C004991B3 /* GoogleSkdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0404F27F1DDF2B1B004991B3 /* GoogleSkd */ = {
+			isa = PBXGroup;
+			children = (
+				0404F2831DDF2B1B004991B3 /* AppDelegate.h */,
+				0404F2841DDF2B1B004991B3 /* AppDelegate.m */,
+				0404F2861DDF2B1B004991B3 /* ViewController.h */,
+				0404F2871DDF2B1B004991B3 /* ViewController.m */,
+				0404F2891DDF2B1B004991B3 /* Main.storyboard */,
+				0404F28C1DDF2B1B004991B3 /* Assets.xcassets */,
+				0404F28E1DDF2B1B004991B3 /* LaunchScreen.storyboard */,
+				0404F2911DDF2B1B004991B3 /* Info.plist */,
+				0404F2801DDF2B1B004991B3 /* Supporting Files */,
+			);
+			path = GoogleSkd;
+			sourceTree = "<group>";
+		};
+		0404F2801DDF2B1B004991B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0404F2811DDF2B1B004991B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0404F2991DDF2B1C004991B3 /* GoogleSkdTests */ = {
+			isa = PBXGroup;
+			children = (
+				0404F29A1DDF2B1C004991B3 /* GoogleSkdTests.m */,
+				0404F29C1DDF2B1C004991B3 /* Info.plist */,
+			);
+			path = GoogleSkdTests;
+			sourceTree = "<group>";
+		};
+		0404F2A41DDF2B1C004991B3 /* GoogleSkdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0404F2A51DDF2B1C004991B3 /* GoogleSkdUITests.m */,
+				0404F2A71DDF2B1C004991B3 /* Info.plist */,
+			);
+			path = GoogleSkdUITests;
+			sourceTree = "<group>";
+		};
+		0404F2BE1DDF2BC6004991B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0404F2D31DDF36CA004991B3 /* Bolts.framework */,
+				0404F2C11DDF2BCD004991B3 /* SystemConfiguration.framework */,
+				0404F2BF1DDF2BC7004991B3 /* SafariServices.framework */,
+				745F6AB9ECBC06615FA7A997 /* libPods-GoogleSkd.a */,
+				20BD4607F50CF9685ACD7F53 /* libPods-GoogleSkdTests.a */,
+				E42137F3EC3FF506FCC25111 /* libPods-GoogleSkdUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A61375FBFAAFC8CF8641E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A01D9D2C8B9C3544CA0B78BC /* Pods-GoogleSkd.debug.xcconfig */,
+				D3BFAC5740E82EA4459AF282 /* Pods-GoogleSkd.release.xcconfig */,
+				A3E93BC57B87E1C0B93E0662 /* Pods-GoogleSkdTests.debug.xcconfig */,
+				D38FF554B60BD2C65F8553C3 /* Pods-GoogleSkdTests.release.xcconfig */,
+				A67F6D7D1370F4070BF64A84 /* Pods-GoogleSkdUITests.debug.xcconfig */,
+				ED10EA8DDF737022DE811CFE /* Pods-GoogleSkdUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0404F27C1DDF2B1B004991B3 /* GoogleSkd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0404F2AA1DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkd" */;
+			buildPhases = (
+				FB0B1573154B5BAB841736DE /* [CP] Check Pods Manifest.lock */,
+				0404F2791DDF2B1B004991B3 /* Sources */,
+				0404F27A1DDF2B1B004991B3 /* Frameworks */,
+				0404F27B1DDF2B1B004991B3 /* Resources */,
+				2BAD935D36137F1F984EDC72 /* [CP] Embed Pods Frameworks */,
+				773A51A173329EBCEAADFEF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSkd;
+			productName = GoogleSkd;
+			productReference = 0404F27D1DDF2B1B004991B3 /* GoogleSkd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0404F2951DDF2B1C004991B3 /* GoogleSkdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0404F2AD1DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkdTests" */;
+			buildPhases = (
+				1E7C1242D2602B0A4B520F00 /* [CP] Check Pods Manifest.lock */,
+				0404F2921DDF2B1C004991B3 /* Sources */,
+				0404F2931DDF2B1C004991B3 /* Frameworks */,
+				0404F2941DDF2B1C004991B3 /* Resources */,
+				ADFB947F83FCC93CBE6FE351 /* [CP] Embed Pods Frameworks */,
+				EB570D4F3526FDE0C1B3AA36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0404F2981DDF2B1C004991B3 /* PBXTargetDependency */,
+			);
+			name = GoogleSkdTests;
+			productName = GoogleSkdTests;
+			productReference = 0404F2961DDF2B1C004991B3 /* GoogleSkdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0404F2A01DDF2B1C004991B3 /* GoogleSkdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0404F2B01DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkdUITests" */;
+			buildPhases = (
+				5CE640500BBBBC878EB5C41A /* [CP] Check Pods Manifest.lock */,
+				0404F29D1DDF2B1C004991B3 /* Sources */,
+				0404F29E1DDF2B1C004991B3 /* Frameworks */,
+				0404F29F1DDF2B1C004991B3 /* Resources */,
+				A9819440D3502CF34EDB6A32 /* [CP] Embed Pods Frameworks */,
+				C566735DA3F9B44B36BFE481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0404F2A31DDF2B1C004991B3 /* PBXTargetDependency */,
+			);
+			name = GoogleSkdUITests;
+			productName = GoogleSkdUITests;
+			productReference = 0404F2A11DDF2B1C004991B3 /* GoogleSkdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0404F2751DDF2B1B004991B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Bhadresh Patoliya";
+				TargetAttributes = {
+					0404F27C1DDF2B1B004991B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0404F2951DDF2B1C004991B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0404F27C1DDF2B1B004991B3;
+					};
+					0404F2A01DDF2B1C004991B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0404F27C1DDF2B1B004991B3;
+					};
+				};
+			};
+			buildConfigurationList = 0404F2781DDF2B1B004991B3 /* Build configuration list for PBXProject "GoogleSkd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0404F2741DDF2B1B004991B3;
+			productRefGroup = 0404F27E1DDF2B1B004991B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0404F27C1DDF2B1B004991B3 /* GoogleSkd */,
+				0404F2951DDF2B1C004991B3 /* GoogleSkdTests */,
+				0404F2A01DDF2B1C004991B3 /* GoogleSkdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0404F27B1DDF2B1B004991B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404F2901DDF2B1B004991B3 /* LaunchScreen.storyboard in Resources */,
+				0404F2D21DDF369A004991B3 /* GoogleSignIn.bundle in Resources */,
+				0404F2C41DDF2C1F004991B3 /* GoogleService-Info.plist in Resources */,
+				0404F28D1DDF2B1B004991B3 /* Assets.xcassets in Resources */,
+				0404F28B1DDF2B1B004991B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F2941DDF2B1C004991B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F29F1DDF2B1C004991B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E7C1242D2602B0A4B520F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAD935D36137F1F984EDC72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkd/Pods-GoogleSkd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE640500BBBBC878EB5C41A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		773A51A173329EBCEAADFEF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkd/Pods-GoogleSkd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9819440D3502CF34EDB6A32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkdUITests/Pods-GoogleSkdUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFB947F83FCC93CBE6FE351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkdTests/Pods-GoogleSkdTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C566735DA3F9B44B36BFE481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkdUITests/Pods-GoogleSkdUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB570D4F3526FDE0C1B3AA36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSkdTests/Pods-GoogleSkdTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0B1573154B5BAB841736DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0404F2791DDF2B1B004991B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404F2881DDF2B1B004991B3 /* ViewController.m in Sources */,
+				0404F2851DDF2B1B004991B3 /* AppDelegate.m in Sources */,
+				0404F2821DDF2B1B004991B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F2921DDF2B1C004991B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404F29B1DDF2B1C004991B3 /* GoogleSkdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404F29D1DDF2B1C004991B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404F2A61DDF2B1C004991B3 /* GoogleSkdUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0404F2981DDF2B1C004991B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0404F27C1DDF2B1B004991B3 /* GoogleSkd */;
+			targetProxy = 0404F2971DDF2B1C004991B3 /* PBXContainerItemProxy */;
+		};
+		0404F2A31DDF2B1C004991B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0404F27C1DDF2B1B004991B3 /* GoogleSkd */;
+			targetProxy = 0404F2A21DDF2B1C004991B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0404F2891DDF2B1B004991B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0404F28A1DDF2B1B004991B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0404F28E1DDF2B1B004991B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0404F28F1DDF2B1B004991B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0404F2A81DDF2B1C004991B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0404F2A91DDF2B1C004991B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0404F2AB1DDF2B1C004991B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01D9D2C8B9C3544CA0B78BC /* Pods-GoogleSkd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleSkd",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GoogleSkd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0404F2AC1DDF2B1C004991B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BFAC5740E82EA4459AF282 /* Pods-GoogleSkd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleSkd",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GoogleSkd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0404F2AE1DDF2B1C004991B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E93BC57B87E1C0B93E0662 /* Pods-GoogleSkdTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleSkdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSkd.app/GoogleSkd";
+			};
+			name = Debug;
+		};
+		0404F2AF1DDF2B1C004991B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38FF554B60BD2C65F8553C3 /* Pods-GoogleSkdTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleSkdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSkd.app/GoogleSkd";
+			};
+			name = Release;
+		};
+		0404F2B11DDF2B1C004991B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67F6D7D1370F4070BF64A84 /* Pods-GoogleSkdUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleSkdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleSkd;
+			};
+			name = Debug;
+		};
+		0404F2B21DDF2B1C004991B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED10EA8DDF737022DE811CFE /* Pods-GoogleSkdUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleSkdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bhadresh.patoliya.GoogleSkdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleSkd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0404F2781DDF2B1B004991B3 /* Build configuration list for PBXProject "GoogleSkd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0404F2A81DDF2B1C004991B3 /* Debug */,
+				0404F2A91DDF2B1C004991B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0404F2AA1DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0404F2AB1DDF2B1C004991B3 /* Debug */,
+				0404F2AC1DDF2B1C004991B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0404F2AD1DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0404F2AE1DDF2B1C004991B3 /* Debug */,
+				0404F2AF1DDF2B1C004991B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0404F2B01DDF2B1C004991B3 /* Build configuration list for PBXNativeTarget "GoogleSkdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0404F2B11DDF2B1C004991B3 /* Debug */,
+				0404F2B21DDF2B1C004991B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0404F2751DDF2B1B004991B3 /* Project object */;
+}
